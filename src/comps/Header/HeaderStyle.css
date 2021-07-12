@@ -1,0 +1,21 @@
+header{
+    overflow: hidden;
+    background-color: rgba(14, 13, 13, 0.609);
+    padding: 20px 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+header div{
+   
+}
+span{
+    
+    
+}
+p{
+    color: white;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 22pt;
+    font-style: italic;
+    font-weight: 500;
+}

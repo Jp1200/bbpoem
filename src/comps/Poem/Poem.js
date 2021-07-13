@@ -1,9 +1,9 @@
 import React from "react";
-
+import "./PoemStyles.css"
 
 function Poem(){
     return(
-        <div>
+        <div className="poem-container">
             <h1>
                 Beauty and Grace
             </h1>
@@ -11,3 +11,4 @@ function Poem(){
         </div>
     )
 }
+export default Poem;

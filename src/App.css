@@ -1,9 +1,34 @@
 body{
+    
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+
+    
+}
+.App{
+    width: 100vw;
+    height: 100vh;
     background: url(Background.png) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     background-color: black;
-    margin: 0;
+    -webkit-animation: myfirst 3s ; /* Chrome, Safari, Opera */
+    animation: myfirst 3s ;
+}
+@-webkit-keyframes myfirst {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
+
+  /* Standard syntax */
+  @keyframes myfirst {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
+:root{
+    --typewriter-speed: 6s;
 }

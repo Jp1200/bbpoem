@@ -1,6 +1,6 @@
 import './App.css';
 import React from "react";
-
+import Poem  from "./comps/Poem/Poem";
 import Mainpage from "./comps/Main/Mainpage";
 
 function App() {
@@ -8,6 +8,7 @@ function App() {
     <div className="App">
       
       <Mainpage/>
+      <Poem/>
     </div>
   );
 }

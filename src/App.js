@@ -5,10 +5,14 @@ import Mainpage from "./comps/Main/Mainpage";
 
 function App() {
   return (
-    <div className="App">
-      
-      <Mainpage/>
+    <div>
       <Poem/>
+    
+      <div className="App">
+      
+        <Mainpage/>
+      
+      </div>
     </div>
   );
 }

@@ -4,8 +4,10 @@
     place-content: center;
     text-align: center;
     margin: 0;
-    background:  white
+    background:  white;
+    
 }
+
 h1{
     font-size: clamp(1rem, 3vw + 1rem, 4rem);
     position: relative;

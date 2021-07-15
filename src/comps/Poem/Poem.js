@@ -3,7 +3,7 @@ import "./PoemStyles.css"
 
 function Poem(){
     return(
-        <div className="poem-container">
+        <div className="poem-container" id="poem">
             <h1>
                 Beauty and Grace
             </h1>
